@@ -1,4 +1,39 @@
 // data.js or wherever you store your data
+export const enrolledCourses = [
+  {
+    id: 1,
+    coursesName: "NDA Preparation",
+    priceAll: "₹1999",
+    startDate: "2024-12-01",
+    finishDate: "2025-03-01",
+    examDate: "2025-03-05",
+  },
+  {
+    id: 2,
+    coursesName: "CDS Exam Coaching",
+    priceAll: "₹2499",
+    startDate: "2024-11-10",
+    finishDate: "2025-02-10",
+    examDate: "2025-02-15",
+  },
+  {
+    id: 3,
+    coursesName: "AFCAT Training",
+    priceAll: "₹2499",
+    startDate: "2024-12-01",
+    finishDate: "2025-03-01",
+    examDate: "2025-03-05",
+  },
+  {
+    id: 4,
+    coursesName: "SSB Interview Preparation",
+    priceAll: "₹2999",
+    startDate: "2024-11-10",
+    finishDate: "2025-02-10",
+    examDate: "2025-02-15",
+  },
+];
+
 export const homeAbout = [
   {
     id: 1,
